@@ -149,12 +149,12 @@
                         </div>
                     </a>
 
-                    <a href="https://www.instagram.com/nike_tuning.official/" target="_blank" class="block bg-gradient-to-r from-purple-500 to-pink-500 hover:from-purple-600 hover:to-pink-600 text-white p-4 rounded-lg transition-all transform hover:scale-105">
+                    <a href="https://www.instagram.com/nike_tune?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" target="_blank" class="block bg-gradient-to-r from-purple-500 to-pink-500 hover:from-purple-600 hover:to-pink-600 text-white p-4 rounded-lg transition-all transform hover:scale-105">
                         <div class="flex items-center">
                             <i class="fab fa-instagram text-3xl mr-4"></i>
                             <div>
                                 <div class="font-bold">Instagram</div>
-                                <div class="text-sm">@nike_tuning.official</div>
+                                <div class="text-sm">@nike_tune</div>
                             </div>
                         </div>
                     </a>
