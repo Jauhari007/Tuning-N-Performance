@@ -5,7 +5,7 @@
             <!-- Logo -->
             <div class="flex items-center space-x-3">
                 <div class="bg-white p-1 rounded-lg">
-                    <img src="{{ asset('/images/nike_tuning.png') }}" alt="Nike Tuning Logo" class="w-12 h-12 object-contain">
+                    <img src="{{ asset('/images/niketuning.png') }}" alt="Nike Tuning Logo" class="w-12 h-12 object-contain">
                 </div>
                 <div>
                     <h1 class="text-xl font-bold">Nike Tuning</h1>

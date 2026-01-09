@@ -45,12 +45,12 @@
             <!-- Gallery Item 1 -->
             <div class="gallery-item engine" data-aos="zoom-in">
                 <div class="relative overflow-hidden rounded-xl shadow-lg group cursor-pointer">
-                    <img src="https://images.unsplash.com/photo-1580273916550-e323be2ae537?w=600" alt="Engine Build 1" class="w-full h-80 object-cover transform group-hover:scale-110 transition-transform duration-500">
+                    <img src="{{ asset('images/mb12.png') }}" alt="Engine Build 1" class="w-full h-80 object-cover transform group-hover:scale-110 transition-transform duration-500" loading="lazy" decoding="async">
                     <div class="absolute inset-0 bg-gradient-to-t from-black/90 via-black/50 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300">
                         <div class="absolute bottom-0 left-0 right-0 p-6 text-white">
                             <span class="bg-blue-600 px-3 py-1 rounded-full text-xs font-semibold mb-2 inline-block">ENGINE BUILD</span>
-                            <h3 class="font-bold text-xl mb-2">Honda Civic Type R Turbo</h3>
-                            <p class="text-sm text-gray-300">Full engine rebuild with turbo upgrade - 450HP</p>
+                            <h3 class="font-bold text-xl mb-2">Honda City Turbo Build</h3>
+                            <p class="text-sm text-gray-300">Custom turbo installation dengan intercooler upgrade</p>
                             <div class="mt-4 flex items-center justify-between">
                                 <span class="text-xs"><i class="fas fa-calendar mr-2"></i>Des 2024</span>
                                 <button class="bg-primary hover:bg-red-700 px-4 py-2 rounded-lg text-sm font-semibold">View Details</button>
@@ -63,12 +63,12 @@
             <!-- Gallery Item 2 -->
             <div class="gallery-item ecu" data-aos="zoom-in" data-aos-delay="100">
                 <div class="relative overflow-hidden rounded-xl shadow-lg group cursor-pointer">
-                    <img src="https://images.unsplash.com/photo-1581092160562-40aa08e78837?w=600" alt="ECU Remap 1" class="w-full h-80 object-cover transform group-hover:scale-110 transition-transform duration-500">
+                    <img src="{{ asset('images/mb6.jpg') }}" alt="ECU Remap 1" class="w-full h-80 object-cover transform group-hover:scale-110 transition-transform duration-500" loading="lazy" decoding="async">
                     <div class="absolute inset-0 bg-gradient-to-t from-black/90 via-black/50 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300">
                         <div class="absolute bottom-0 left-0 right-0 p-6 text-white">
                             <span class="bg-purple-600 px-3 py-1 rounded-full text-xs font-semibold mb-2 inline-block">ECU REMAP</span>
-                            <h3 class="font-bold text-xl mb-2">BMW M3 F80 Stage 2</h3>
-                            <p class="text-sm text-gray-300">Custom ECU mapping & dyno tuning - 520HP</p>
+                            <h3 class="font-bold text-xl mb-2">Isuzu Panther ECU Tuning</h3>
+                            <p class="text-sm text-gray-300">Custom ECU remapping untuk performa maksimal</p>
                             <div class="mt-4 flex items-center justify-between">
                                 <span class="text-xs"><i class="fas fa-calendar mr-2"></i>Nov 2024</span>
                                 <button class="bg-primary hover:bg-red-700 px-4 py-2 rounded-lg text-sm font-semibold">View Details</button>
@@ -81,12 +81,12 @@
             <!-- Gallery Item 3 -->
             <div class="gallery-item boreup" data-aos="zoom-in" data-aos-delay="200">
                 <div class="relative overflow-hidden rounded-xl shadow-lg group cursor-pointer">
-                    <img src="https://images.unsplash.com/photo-1615906655593-ad0386982a0f?w=600" alt="Bore Up 1" class="w-full h-80 object-cover transform group-hover:scale-110 transition-transform duration-500">
+                    <img src="{{ asset('images/mt1.jpg') }}" alt="Bore Up 1" class="w-full h-80 object-cover transform group-hover:scale-110 transition-transform duration-500" loading="lazy" decoding="async">
                     <div class="absolute inset-0 bg-gradient-to-t from-black/90 via-black/50 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300">
                         <div class="absolute bottom-0 left-0 right-0 p-6 text-white">
                             <span class="bg-green-600 px-3 py-1 rounded-full text-xs font-semibold mb-2 inline-block">BORE UP</span>
-                            <h3 class="font-bold text-xl mb-2">Yamaha R15 Racing Spec</h3>
-                            <p class="text-sm text-gray-300">200cc bore up with complete racing setup</p>
+                            <h3 class="font-bold text-xl mb-2">Honda CB Racing Build</h3>
+                            <p class="text-sm text-gray-300">Bore up racing dengan custom velg gold dan setup kompetisi</p>
                             <div class="mt-4 flex items-center justify-between">
                                 <span class="text-xs"><i class="fas fa-calendar mr-2"></i>Okt 2024</span>
                                 <button class="bg-primary hover:bg-red-700 px-4 py-2 rounded-lg text-sm font-semibold">View Details</button>
@@ -99,12 +99,12 @@
             <!-- Gallery Item 4 -->
             <div class="gallery-item wiring" data-aos="zoom-in">
                 <div class="relative overflow-hidden rounded-xl shadow-lg group cursor-pointer">
-                    <img src="https://images.unsplash.com/photo-1599420186946-7b6fb4e297f0?w=600" alt="Wiring 1" class="w-full h-80 object-cover transform group-hover:scale-110 transition-transform duration-500">
+                    <img src="{{ asset('images/mb2.jpg') }}" alt="Wiring 1" class="w-full h-80 object-cover transform group-hover:scale-110 transition-transform duration-500" loading="lazy" decoding="async">
                     <div class="absolute inset-0 bg-gradient-to-t from-black/90 via-black/50 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300">
                         <div class="absolute bottom-0 left-0 right-0 p-6 text-white">
                             <span class="bg-yellow-600 px-3 py-1 rounded-full text-xs font-semibold mb-2 inline-block">CUSTOM WIRING</span>
-                            <h3 class="font-bold text-xl mb-2">Nissan GTR R35 Wire Tuck</h3>
-                            <p class="text-sm text-gray-300">Clean wire tuck with aftermarket ECU install</p>
+                            <h3 class="font-bold text-xl mb-2">Mazda2 Custom Wiring</h3>
+                            <p class="text-sm text-gray-300">Perbaikan kelistrikan dan custom wiring system</p>
                             <div class="mt-4 flex items-center justify-between">
                                 <span class="text-xs"><i class="fas fa-calendar mr-2"></i>Sep 2024</span>
                                 <button class="bg-primary hover:bg-red-700 px-4 py-2 rounded-lg text-sm font-semibold">View Details</button>
@@ -117,12 +117,12 @@
             <!-- Gallery Item 5 -->
             <div class="gallery-item engine" data-aos="zoom-in" data-aos-delay="100">
                 <div class="relative overflow-hidden rounded-xl shadow-lg group cursor-pointer">
-                    <img src="https://images.unsplash.com/photo-1492144534655-ae79c964c9d7?w=600" alt="Engine Build 2" class="w-full h-80 object-cover transform group-hover:scale-110 transition-transform duration-500">
+                    <img src="{{ asset('images/mb15.jpg') }}" alt="Engine Build 2" class="w-full h-80 object-cover transform group-hover:scale-110 transition-transform duration-500" loading="lazy" decoding="async">
                     <div class="absolute inset-0 bg-gradient-to-t from-black/90 via-black/50 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300">
                         <div class="absolute bottom-0 left-0 right-0 p-6 text-white">
                             <span class="bg-blue-600 px-3 py-1 rounded-full text-xs font-semibold mb-2 inline-block">ENGINE BUILD</span>
-                            <h3 class="font-bold text-xl mb-2">Toyota Supra MK5 B58</h3>
-                            <p class="text-sm text-gray-300">Forged internals with hybrid turbo - 700HP</p>
+                            <h3 class="font-bold text-xl mb-2">Toyota Yaris Engine Rebuild</h3>
+                            <p class="text-sm text-gray-300">Complete engine overhaul dan perbaikan mesin</p>
                             <div class="mt-4 flex items-center justify-between">
                                 <span class="text-xs"><i class="fas fa-calendar mr-2"></i>Agu 2024</span>
                                 <button class="bg-primary hover:bg-red-700 px-4 py-2 rounded-lg text-sm font-semibold">View Details</button>
@@ -135,12 +135,12 @@
             <!-- Gallery Item 6 -->
             <div class="gallery-item ecu" data-aos="zoom-in" data-aos-delay="200">
                 <div class="relative overflow-hidden rounded-xl shadow-lg group cursor-pointer">
-                    <img src="https://images.unsplash.com/photo-1503376780353-7e6692767b70?w=600" alt="ECU Remap 2" class="w-full h-80 object-cover transform group-hover:scale-110 transition-transform duration-500">
+                    <img src="{{ asset('images/mb14.jpg') }}" alt="ECU Remap 2" class="w-full h-80 object-cover transform group-hover:scale-110 transition-transform duration-500" loading="lazy" decoding="async">
                     <div class="absolute inset-0 bg-gradient-to-t from-black/90 via-black/50 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300">
                         <div class="absolute bottom-0 left-0 right-0 p-6 text-white">
                             <span class="bg-purple-600 px-3 py-1 rounded-full text-xs font-semibold mb-2 inline-block">ECU REMAP</span>
-                            <h3 class="font-bold text-xl mb-2">Audi RS3 8V</h3>
-                            <p class="text-sm text-gray-300">Stage 2+ with custom tuning - 480HP</p>
+                            <h3 class="font-bold text-xl mb-2">Honda City LED Headlight Upgrade</h3>
+                            <p class="text-sm text-gray-300">LED headlight retrofit dengan custom wiring</p>
                             <div class="mt-4 flex items-center justify-between">
                                 <span class="text-xs"><i class="fas fa-calendar mr-2"></i>Jul 2024</span>
                                 <button class="bg-primary hover:bg-red-700 px-4 py-2 rounded-lg text-sm font-semibold">View Details</button>
@@ -153,12 +153,12 @@
             <!-- Gallery Item 7 -->
             <div class="gallery-item boreup" data-aos="zoom-in">
                 <div class="relative overflow-hidden rounded-xl shadow-lg group cursor-pointer">
-                    <img src="https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=600" alt="Bore Up 2" class="w-full h-80 object-cover transform group-hover:scale-110 transition-transform duration-500">
+                    <img src="{{ asset('images/mt3.jpg') }}" alt="Bore Up 2" class="w-full h-80 object-cover transform group-hover:scale-110 transition-transform duration-500" loading="lazy" decoding="async">
                     <div class="absolute inset-0 bg-gradient-to-t from-black/90 via-black/50 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300">
                         <div class="absolute bottom-0 left-0 right-0 p-6 text-white">
                             <span class="bg-green-600 px-3 py-1 rounded-full text-xs font-semibold mb-2 inline-block">BORE UP</span>
-                            <h3 class="font-bold text-xl mb-2">Kawasaki Ninja 250 Build</h3>
-                            <p class="text-sm text-gray-300">320cc street/track setup with ECU</p>
+                            <h3 class="font-bold text-xl mb-2">Honda CB Custom Build</h3>
+                            <p class="text-sm text-gray-300">Custom bore up dengan setup drag racing</p>
                             <div class="mt-4 flex items-center justify-between">
                                 <span class="text-xs"><i class="fas fa-calendar mr-2"></i>Jun 2024</span>
                                 <button class="bg-primary hover:bg-red-700 px-4 py-2 rounded-lg text-sm font-semibold">View Details</button>
@@ -171,12 +171,12 @@
             <!-- Gallery Item 8 -->
             <div class="gallery-item engine" data-aos="zoom-in" data-aos-delay="100">
                 <div class="relative overflow-hidden rounded-xl shadow-lg group cursor-pointer">
-                    <img src="https://images.unsplash.com/photo-1542362567-b07e54358753?w=600" alt="Engine Build 3" class="w-full h-80 object-cover transform group-hover:scale-110 transition-transform duration-500">
+                    <img src="{{ asset('images/mb16.jpg') }}" alt="Engine Build 3" class="w-full h-80 object-cover transform group-hover:scale-110 transition-transform duration-500" loading="lazy" decoding="async">
                     <div class="absolute inset-0 bg-gradient-to-t from-black/90 via-black/50 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300">
                         <div class="absolute bottom-0 left-0 right-0 p-6 text-white">
                             <span class="bg-blue-600 px-3 py-1 rounded-full text-xs font-semibold mb-2 inline-block">ENGINE BUILD</span>
-                            <h3 class="font-bold text-xl mb-2">Mitsubishi Evo X 4B11T</h3>
-                            <p class="text-sm text-gray-300">Built block with big turbo setup - 650HP</p>
+                            <h3 class="font-bold text-xl mb-2">Toyota Kijang Engine Service</h3>
+                            <p class="text-sm text-gray-300">Engine maintenance dan tune up rutin</p>
                             <div class="mt-4 flex items-center justify-between">
                                 <span class="text-xs"><i class="fas fa-calendar mr-2"></i>Mei 2024</span>
                                 <button class="bg-primary hover:bg-red-700 px-4 py-2 rounded-lg text-sm font-semibold">View Details</button>
@@ -189,12 +189,12 @@
             <!-- Gallery Item 9 -->
             <div class="gallery-item wiring" data-aos="zoom-in" data-aos-delay="200">
                 <div class="relative overflow-hidden rounded-xl shadow-lg group cursor-pointer">
-                    <img src="https://images.unsplash.com/photo-1486262715619-67b85e0b08d3?w=600" alt="Wiring 2" class="w-full h-80 object-cover transform group-hover:scale-110 transition-transform duration-500">
+                    <img src="{{ asset('images/mt2.jpg') }}" alt="Wiring 2" class="w-full h-80 object-cover transform group-hover:scale-110 transition-transform duration-500" loading="lazy" decoding="async">
                     <div class="absolute inset-0 bg-gradient-to-t from-black/90 via-black/50 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300">
                         <div class="absolute bottom-0 left-0 right-0 p-6 text-white">
                             <span class="bg-yellow-600 px-3 py-1 rounded-full text-xs font-semibold mb-2 inline-block">CUSTOM WIRING</span>
-                            <h3 class="font-bold text-xl mb-2">Subaru WRX STI Race Harness</h3>
-                            <p class="text-sm text-gray-300">Full race harness with PDM installation</p>
+                            <h3 class="font-bold text-xl mb-2">Honda CB Wiring Overhaul</h3>
+                            <p class="text-sm text-gray-300">Custom electrical wiring untuk racing setup</p>
                             <div class="mt-4 flex items-center justify-between">
                                 <span class="text-xs"><i class="fas fa-calendar mr-2"></i>Apr 2024</span>
                                 <button class="bg-primary hover:bg-red-700 px-4 py-2 rounded-lg text-sm font-semibold">View Details</button>
@@ -222,45 +222,45 @@
             <div class="bg-gray-50 p-6 rounded-xl shadow-lg" data-aos="fade-up">
                 <div class="flex items-center mb-4">
                     <div class="w-12 h-12 bg-primary rounded-full flex items-center justify-center text-white font-bold mr-4">
-                        AB
+                        AW
                     </div>
                     <div>
-                        <h3 class="font-bold">Andi Budiman</h3>
+                        <h3 class="font-bold">Aris Wijaya</h3>
                         <div class="text-yellow-500">★★★★★</div>
                     </div>
                 </div>
                 <p class="text-gray-600 italic">
-                    "Pekerjaan sangat rapi dan profesional. Bore up Ninja 250 saya hasilnya luar biasa! Tenaga naik signifikan tapi tetap nyaman untuk harian."
+                    "Jangan khawatir kalau ke bengkel yang 1 ini,di jamin amanah dan hasilnya ciamik,numero uno lah pokoknya."
                 </p>
             </div>
 
             <div class="bg-gray-50 p-6 rounded-xl shadow-lg" data-aos="fade-up" data-aos-delay="100">
                 <div class="flex items-center mb-4">
                     <div class="w-12 h-12 bg-primary rounded-full flex items-center justify-center text-white font-bold mr-4">
-                        RH
+                        TH
                     </div>
                     <div>
-                        <h3 class="font-bold">Rudi Hartono</h3>
+                        <h3 class="font-bold">Taufik Hidayat</h3>
                         <div class="text-yellow-500">★★★★★</div>
                     </div>
                 </div>
                 <p class="text-gray-600 italic">
-                    "ECU remap BMW saya hasil dyno mencapai 520HP! Mekaniknya sangat paham dan detil dalam menjelaskan. Highly recommended!"
+                    "ECU remap yang rekomended! Mekaniknya sangat paham dan detil dalam menjelaskan. Highly recommended!"
                 </p>
             </div>
 
             <div class="bg-gray-50 p-6 rounded-xl shadow-lg" data-aos="fade-up" data-aos-delay="200">
                 <div class="flex items-center mb-4">
                     <div class="w-12 h-12 bg-primary rounded-full flex items-center justify-center text-white font-bold mr-4">
-                        DW
+                        W
                     </div>
                     <div>
-                        <h3 class="font-bold">Doni Wijaya</h3>
+                        <h3 class="font-bold">Wahyu</h3>
                         <div class="text-yellow-500">★★★★★</div>
                     </div>
                 </div>
                 <p class="text-gray-600 italic">
-                    "Engine rebuild Civic saya ditangani dengan sangat baik. Komunikasi lancar, progress update rutin, hasilnya memuaskan!"
+                    "Bengkel dengan Engine rebuild yang terbaik dan hasilnya memuaskan!"
                 </p>
             </div>
         </div>

@@ -44,7 +44,7 @@
             </div>
             <div class="relative flex items-start justify-center mt-8 md:mt-0 md:-mt-8" data-aos="fade-left">
                 <div class="relative z-10 w-full">
-                    <img src="https://images.unsplash.com/photo-1617814076367-b759c7d7e738?w=1200" alt="BMW M4" class="w-full h-auto object-cover rounded-lg md:rounded-none" style="max-height: 450px; object-position: center;">
+                    <img src="{{ asset('images/kijang.png') }}" alt="KIJANG" class="w-full h-auto object-cover rounded-lg md:rounded-none" style="max-height: 450px; object-position: center;" loading="eager" fetchpriority="high">
                 </div>
             </div>
         </div>
@@ -130,7 +130,7 @@
     <div class="container mx-auto px-4">
         <div class="grid md:grid-cols-2 gap-12 items-center">
             <div data-aos="fade-right">
-                <img src="https://images.unsplash.com/photo-1619642751034-765dfdf7c58e?w=800" alt="Workshop" class="rounded-2xl shadow-2xl">
+                <img src="{{ asset('images/boreup.jpg') }}" alt="Workshop" class="rounded-2xl shadow-2xl" loading="lazy" decoding="async">
             </div>
             <div data-aos="fade-left">
                 <h2 class="text-4xl font-bold text-secondary mb-6">Mengapa Memilih Nike Tuning?</h2>
@@ -141,7 +141,7 @@
                         </div>
                         <div>
                             <h3 class="font-bold text-lg mb-1">Mekanik Berpengalaman</h3>
-                            <p class="text-gray-600">Tim teknisi profesional dengan sertifikasi internasional dan pengalaman lebih dari 10 tahun</p>
+                            <p class="text-gray-600">Tim teknisi profesional dengan standar kompetensi internasional dan jam terbang lebih dari 10 tahun</p>
                         </div>
                     </div>
                     <div class="flex items-start space-x-4">
@@ -192,41 +192,41 @@
 
         <div class="grid md:grid-cols-4 gap-6">
             <div class="relative overflow-hidden rounded-xl shadow-lg group cursor-pointer" data-aos="zoom-in" data-aos-delay="100">
-                <img src="https://images.unsplash.com/photo-1492144534655-ae79c964c9d7?w=600" alt="Project 1" class="w-full h-64 object-cover transform group-hover:scale-110 transition-transform duration-500">
+                <img src="{{ asset('images/mb12.png') }}" alt="Project 1" class="w-full h-64 object-cover transform group-hover:scale-110 transition-transform duration-500" loading="lazy" decoding="async">
                 <div class="absolute inset-0 bg-gradient-to-t from-black/80 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300">
                     <div class="absolute bottom-4 left-4 text-white">
-                        <h3 class="font-bold text-lg">Engine Rebuild</h3>
-                        <p class="text-sm">Honda Civic Turbo</p>
+                        <h3 class="font-bold text-lg">Engine Build</h3>
+                        <p class="text-sm">Honda City Turbo</p>
                     </div>
                 </div>
             </div>
 
             <div class="relative overflow-hidden rounded-xl shadow-lg group cursor-pointer" data-aos="zoom-in" data-aos-delay="200">
-                <img src="https://images.unsplash.com/photo-1503376780353-7e6692767b70?w=600" alt="Project 2" class="w-full h-64 object-cover transform group-hover:scale-110 transition-transform duration-500">
+                <img src="{{ asset('images/mb6.jpg') }}" alt="Project 2" class="w-full h-64 object-cover transform group-hover:scale-110 transition-transform duration-500" loading="lazy" decoding="async">
                 <div class="absolute inset-0 bg-gradient-to-t from-black/80 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300">
                     <div class="absolute bottom-4 left-4 text-white">
                         <h3 class="font-bold text-lg">ECU Remap</h3>
-                        <p class="text-sm">BMW M3 F80</p>
+                        <p class="text-sm">Isuzu Panther</p>
                     </div>
                 </div>
             </div>
 
             <div class="relative overflow-hidden rounded-xl shadow-lg group cursor-pointer" data-aos="zoom-in" data-aos-delay="300">
-                <img src="https://images.unsplash.com/photo-1542362567-b07e54358753?w=600" alt="Project 3" class="w-full h-64 object-cover transform group-hover:scale-110 transition-transform duration-500">
+                <img src="{{ asset('images/mt1.jpg') }}" alt="Project 3" class="w-full h-64 object-cover transform group-hover:scale-110 transition-transform duration-500" loading="lazy" decoding="async">
                 <div class="absolute inset-0 bg-gradient-to-t from-black/80 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300">
                     <div class="absolute bottom-4 left-4 text-white">
-                        <h3 class="font-bold text-lg">Custom Turbo</h3>
-                        <p class="text-sm">Toyota Supra MK5</p>
+                        <h3 class="font-bold text-lg">Bore Up</h3>
+                        <p class="text-sm">Honda CB Racing</p>
                     </div>
                 </div>
             </div>
 
             <div class="relative overflow-hidden rounded-xl shadow-lg group cursor-pointer" data-aos="zoom-in" data-aos-delay="400">
-                <img src="https://images.unsplash.com/photo-1552519507-da3b142c6e3d?w=600" alt="Project 4" class="w-full h-64 object-cover transform group-hover:scale-110 transition-transform duration-500">
+                <img src="{{ asset('images/mb2.jpg') }}" alt="Project 4" class="w-full h-64 object-cover transform group-hover:scale-110 transition-transform duration-500" loading="lazy" decoding="async">
                 <div class="absolute inset-0 bg-gradient-to-t from-black/80 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300">
                     <div class="absolute bottom-4 left-4 text-white">
-                        <h3 class="font-bold text-lg">Full Exhaust</h3>
-                        <p class="text-sm">Nissan GTR R35</p>
+                        <h3 class="font-bold text-lg">Custom Wiring</h3>
+                        <p class="text-sm">Mazda2</p>
                     </div>
                 </div>
             </div>

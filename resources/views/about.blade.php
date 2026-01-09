@@ -211,72 +211,6 @@
     </div>
 </section>
 
-<!-- Team Section -->
-<section class="py-20 bg-gray-50">
-    <div class="container mx-auto px-4">
-        <div class="text-center mb-12" data-aos="fade-up">
-            <h2 class="text-4xl font-bold text-secondary mb-4">Tim Expert Kami</h2>
-            <p class="text-gray-600 max-w-2xl mx-auto">
-                Bertemu dengan para specialist yang akan menangani kendaraan Anda
-            </p>
-        </div>
-
-        <div class="grid md:grid-cols-4 gap-8">
-            <div class="bg-white rounded-xl shadow-lg overflow-hidden hover:shadow-2xl transition-all" data-aos="fade-up">
-                <div class="relative">
-                    <img src="https://images.unsplash.com/photo-1560250097-0b93528c311a?w=400" alt="Team 1" class="w-full h-64 object-cover">
-                    <div class="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-black/80 to-transparent p-4">
-                        <h3 class="text-white font-bold text-xl">Budi Santoso</h3>
-                        <p class="text-gray-300 text-sm">Head Technician</p>
-                    </div>
-                </div>
-                <div class="p-4">
-                    <p class="text-gray-600 text-sm">Spesialis engine rebuild dengan 15 tahun pengalaman. Certified dari berbagai brand internasional.</p>
-                </div>
-            </div>
-
-            <div class="bg-white rounded-xl shadow-lg overflow-hidden hover:shadow-2xl transition-all" data-aos="fade-up" data-aos-delay="100">
-                <div class="relative">
-                    <img src="https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?w=400" alt="Team 2" class="w-full h-64 object-cover">
-                    <div class="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-black/80 to-transparent p-4">
-                        <h3 class="text-white font-bold text-xl">Ahmad Fauzi</h3>
-                        <p class="text-gray-300 text-sm">ECU Specialist</p>
-                    </div>
-                </div>
-                <div class="p-4">
-                    <p class="text-gray-600 text-sm">Expert dalam ECU remapping dan standalone installation. Pengalaman 10+ tahun di dunia tuning.</p>
-                </div>
-            </div>
-
-            <div class="bg-white rounded-xl shadow-lg overflow-hidden hover:shadow-2xl transition-all" data-aos="fade-up" data-aos-delay="200">
-                <div class="relative">
-                    <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400" alt="Team 3" class="w-full h-64 object-cover">
-                    <div class="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-black/80 to-transparent p-4">
-                        <h3 class="text-white font-bold text-xl">Rudi Hartono</h3>
-                        <p class="text-gray-300 text-sm">Electrical Expert</p>
-                    </div>
-                </div>
-                <div class="p-4">
-                    <p class="text-gray-600 text-sm">Spesialis custom wiring dan electrical system. Certified electrical engineer dengan track record solid.</p>
-                </div>
-            </div>
-
-            <div class="bg-white rounded-xl shadow-lg overflow-hidden hover:shadow-2xl transition-all" data-aos="fade-up" data-aos-delay="300">
-                <div class="relative">
-                    <img src="https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?w=400" alt="Team 4" class="w-full h-64 object-cover">
-                    <div class="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-black/80 to-transparent p-4">
-                        <h3 class="text-white font-bold text-xl">Deni Wijaya</h3>
-                        <p class="text-gray-300 text-sm">Dyno Operator</p>
-                    </div>
-                </div>
-                <div class="p-4">
-                    <p class="text-gray-600 text-sm">Certified dyno operator dengan kemampuan analisa data logging. Pengalaman tuning ratusan kendaraan.</p>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
-
 <!-- Stats Section -->
 <section class="py-20 bg-gradient-to-r from-primary to-red-700 text-white">
     <div class="container mx-auto px-4">
@@ -286,7 +220,7 @@
                 <div class="text-xl">Tahun Pengalaman</div>
             </div>
             <div data-aos="fade-up" data-aos-delay="100">
-                <div class="text-5xl font-bold mb-2">1000+</div>
+                <div class="text-5xl font-bold mb-2">200+</div>
                 <div class="text-xl">Project Selesai</div>
             </div>
             <div data-aos="fade-up" data-aos-delay="200">
@@ -294,7 +228,7 @@
                 <div class="text-xl">Kepuasan Customer</div>
             </div>
             <div data-aos="fade-up" data-aos-delay="300">
-                <div class="text-5xl font-bold mb-2">15</div>
+                <div class="text-5xl font-bold mb-2">5</div>
                 <div class="text-xl">Teknisi Profesional</div>
             </div>
         </div>

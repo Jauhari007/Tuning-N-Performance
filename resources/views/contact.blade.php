@@ -144,7 +144,7 @@
                             <i class="fas fa-envelope text-3xl mr-4"></i>
                             <div>
                                 <div class="font-bold">Email</div>
-                                <div class="text-sm">info@niketuning.com</div>
+                                <div class="text-sm">niketuning77@gmail.com</div>
                             </div>
                         </div>
                     </a>

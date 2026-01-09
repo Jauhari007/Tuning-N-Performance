@@ -36,7 +36,7 @@
                 <ul class="space-y-3 text-sm text-gray-400">
                     <li class="flex items-start">
                         <i class="fas fa-map-marker-alt text-primary mr-3 mt-1"></i>
-                        <span>Jl. Sawunggaling III No.19, Jemundo, Kec. Taman, Kab. Sidoarjo</span>
+                        <span>Jl. Sawunggaling III No.10, Jemundo, Kec. Taman, Kab. Sidoarjo</span>
                     </li>
                     <li class="flex items-center">
                         <i class="fas fa-phone text-primary mr-3"></i>
@@ -44,7 +44,7 @@
                     </li>
                     <li class="flex items-center">
                         <i class="fas fa-envelope text-primary mr-3"></i>
-                        <span>info@niketuning.com</span>
+                        <span>niketuning77@gmail.com</span>
                     </li>
                     <li class="flex items-center">
                         <i class="fas fa-clock text-primary mr-3"></i>

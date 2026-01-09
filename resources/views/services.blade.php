@@ -145,7 +145,7 @@
         <div class="bg-white rounded-2xl shadow-xl mb-12 overflow-hidden" data-aos="fade-up">
             <div class="grid md:grid-cols-2 gap-8 items-center">
                 <div class="h-full order-2 md:order-1">
-                    <img src="https://images.unsplash.com/photo-1615906655593-ad0386982a0f?w=800" alt="Bore Up" class="w-full h-full object-cover">
+                    <img src="{{ asset('images/boreup.jpg') }}" alt="Bore Up" class="w-full h-full object-cover" loading="lazy" decoding="async">
                 </div>
                 <div class="p-8 md:p-12 order-1 md:order-2">
                     <div class="flex items-center mb-6">
@@ -218,7 +218,7 @@
                     </a>
                 </div>
                 <div class="h-full">
-                    <img src="https://images.unsplash.com/photo-1581092160562-40aa08e78837?w=800" alt="ECU Remap" class="w-full h-full object-cover">
+                    <img src="{{ asset('images/remap.jpg') }}" alt="ECU Remap" class="w-full h-full object-cover">
                 </div>
             </div>
         </div>
